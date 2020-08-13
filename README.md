@@ -41,3 +41,9 @@ Right here, I am showing you how to change the links and the timetable.
 
 This is how my dictionary looks, your might look different:
 lecture = {'IPC': "18BTCS303&#047;18BTNS303&#047;18BTIS303 - Introduction to Processor and Chips CSE II", "COMI": "Computer Organization & Microprocessor Interfacing CSE II", "DM": "18BTCS305&#047;18BTNS305&#047;18BTIS305 - Discrete Mathematics CSE II", "SHD": "German German-2 Year-TUESDAY-09.30-11.30", "EFE": "18BTCS304&#047;18BTNS304&#047;18BTIS304 - Economics and Finance for Engineers CSE II", "DS": "18BTCS301&#047;18BTNS301&#047;18BTIS301 - Data Structures CSE II", "PLI": "18BTCS311&#047;18BTNS311&#047;18BTIS311 - Programming Laboratory – I CSE II","PLII": "18BTCS312&#047;18BTNS312&#047;18BTIS312 - Programming Laboratory II CSE II", "MNI": "18BTCS321&#047;18BTNS321&#047;18BTIS321 - Mini Project –I CSE II"}
+
+
+
+
+I have scheduled the program to run everyday at (09:33, 10:48, 12:03, 14:03, 15:18)
+You can change it as per your schedule. { 63 to 67 line of code }
