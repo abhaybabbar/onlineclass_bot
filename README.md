@@ -13,3 +13,5 @@ Right here, I am showing you how to change the links and the timetable.
 3. We have to make changes at line 11 of code. That is lecture dictionary.
 4. Replace my subject names with that of yours. { Remember, the naming should match with the one you entered in timetable.xlsx }
 5. Now we need to change the value of the dictionary. { link of subjects }
+6. Go to courses section from tcs ion.
+![](Images/first.png)
