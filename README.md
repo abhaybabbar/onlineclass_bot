@@ -47,3 +47,6 @@ lecture = {'IPC': "18BTCS303&#047;18BTNS303&#047;18BTIS303 - Introduction to Pro
 
 I have scheduled the program to run everyday at (09:33, 10:48, 12:03, 14:03, 15:18)
 You can change it as per your schedule. { 66 to 70 line of code }
+
+
+The Code will be updated soon for more functions.
