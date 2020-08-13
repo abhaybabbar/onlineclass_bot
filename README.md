@@ -1,7 +1,7 @@
 # onlineclass_bot
 
 Hi Everyone.
-I am a student of MIT ADT and I have Created a bot to automate the process of joining online lectures.
+My name is Abhay Babbar and I am a student of MIT ADT and I have Created a bot to automate the process of joining online lectures.
 
 If you are a Student of MIT ADT, and if you currently in CSE2 Second year, then you can use the code by just changing the username and password.
 Else, You have to make changes, because timetable is different and the links too.
@@ -11,10 +11,10 @@ And If you are not a student of MIT ADT or your classes are not on TCS ION, then
 Before running the code, you need to install libraries:
 command are for windows, if you are using mac or anything else, then you need to google the commands.
 1. Selenium { pip install selenium }
-2. openpyxl
-3. time
-4. datetime
-5. schedule
+2. openpyxl { pip install openpyxl }
+3. time     { no need to install }
+4. datetime { no need to install }
+5. schedule { pip install schedule }
 
 Install gecodriver from https://github.com/mozilla/geckodriver/releases
 and extract all the files from it in C folder. {DO NOT CHANGE THE NAME}
