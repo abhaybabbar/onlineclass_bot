@@ -39,7 +39,7 @@ def selector():
 
 def tcs_login():
     link = selector()
-    browser = webdriver.Firefox(executable_path=r'C:\geckodriver.exe')
+    browser = webdriver.Firefox(executable_path=r'C:\geckodriver.exe')      #download geckodriver, refer to README
     browser.get('https://g01.tcsion.com/LX/login')
     browser.find_element_by_id("Usrname").send_keys("#######@mitsoe.ac.in")       #Enter your username
     browser.find_element_by_id("Passwd").send_keys("############")      #Enter your password
