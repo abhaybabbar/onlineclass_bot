@@ -12,6 +12,7 @@ from selenium.common.exceptions import TimeoutException
 lecture = {'IPC': "18BTCS303&#047;18BTNS303&#047;18BTIS303 - Introduction to Processor and Chips CSE II", "COMI": "Computer Organization & Microprocessor Interfacing CSE II", "DM": "18BTCS305&#047;18BTNS305&#047;18BTIS305 - Discrete Mathematics CSE II", "SHD": "German German-2 Year-TUESDAY-09.30-11.30", "EFE": "18BTCS304&#047;18BTNS304&#047;18BTIS304 - Economics and Finance for Engineers CSE II", "DS": "18BTCS301&#047;18BTNS301&#047;18BTIS301 - Data Structures CSE II", "PLI": "18BTCS311&#047;18BTNS311&#047;18BTIS311 - Programming Laboratory – I CSE II","PLII": "18BTCS312&#047;18BTNS312&#047;18BTIS312 - Programming Laboratory II CSE II", "MNI": "18BTCS321&#047;18BTNS321&#047;18BTIS321 - Mini Project –I CSE II"}
 workbook = openpyxl.load_workbook("timetable.xlsx")
 sheet = workbook['Sheet1']
+period = 0
 
 def timetable():
     Current_Date = datetime.datetime.now().strftime('%Y %m %d')
@@ -69,7 +70,7 @@ def schd():
     schedule.every().day.at("14:03").do(tcs_login)
     schedule.every().day.at("15:18").do(tcs_login)
 
-period = 0
+
 periodtoday = timetable()
 
 
