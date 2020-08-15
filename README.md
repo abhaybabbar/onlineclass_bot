@@ -19,19 +19,19 @@ command given are for windows, if you are using mac or anything else, then you n
 Install gecodriver from https://github.com/mozilla/geckodriver/releases
 and extract all the files from it in C folder. {DO NOT CHANGE THE NAME}
 
-Change username and password at line 44, 45 of code.
+Change username and password at line 45, 46 of code.
 
 If you have some problem or some suggestions, you can DM me!
 My linkedin Profile : https://www.linkedin.com/in/abhay-babbar-94718510a/
 
 I have scheduled the program to run everyday at (09:33, 10:48, 12:03, 14:03, 15:18)
-You can change it as per your schedule. { line 66 to 70 of code }
+You can change it as per your schedule. { line 67 to 71 of code }
 
 Right here, I am showing you how to change the links and the timetable.
 
 1. Download timetable.xlsx and make changes in it according to your timetable. Prefer giving short names, like DS for data structures. (DO NOW CHANGE THE FORMAT)
 2. Now we have to make changes in the code.
-3. We have to make changes at line 12 of code. That is lecture dictionary.
+3. We have to make changes at line 13 of code. That is lecture dictionary.
 4. Replace my subject names with that of yours. { Remember, the naming should match with the one you entered in timetable.xlsx }
 5. Now we need to change the value of the dictionary. { link of subjects }
 6. Go to courses section from tcs ion.
